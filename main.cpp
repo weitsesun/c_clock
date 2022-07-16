@@ -15,7 +15,7 @@ int main()
   while(1){
     system("clear");
     cout << getTime() << endl;
-    std::chrono::milliseconds timespan(1000);
-    std::this_thread::sleep_for(timespan);
+    std::chrono::milliseconds time_span(1000);
+    std::this_thread::sleep_for(time_span);
   }
 }
